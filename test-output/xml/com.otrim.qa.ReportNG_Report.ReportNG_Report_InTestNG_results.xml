@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Test"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="6.012">
+  <properties />
+  
+  
+            <testcase name="reportNG_report" time="6.012" classname="com.otrim.qa.ReportNG_Report.ReportNG_Report_InTestNG" />
+      
+</testsuite>
