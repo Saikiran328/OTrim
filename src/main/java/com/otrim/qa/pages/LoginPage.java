@@ -163,9 +163,12 @@ public class LoginPage extends TestBase {
 		loginBtn.click();
 		System.out.println("Clicked On LoginButton");
 		log.info("Clicked On LoginButton");
+	}
 	
-}
 	
+	public void Test() {
+		System.out.println("Hello");
+	}
 //	//7
 //	public void homePage_OtrimLogo() throws InterruptedException {
 //		
