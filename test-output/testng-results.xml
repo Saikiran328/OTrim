@@ -1,67 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
-    <line>
-      <![CDATA[Navigated to chrome browser
-line]]>
-    </line>
-    <line>
-      <![CDATA[Chrome browser maximized]]>
-    </line>
-    <line>
-      <![CDATA[Navigated to URL]]>
-    </line>
-    <line>
-      <![CDATA[User Email Entered]]>
-    </line>
-    <line>
-      <![CDATA[User Password Entered]]>
-    </line>
-    <line>
-      <![CDATA[Clicked on Login Button]]>
-    </line>
-    <line>
-      <![CDATA[Assert condition verified]]>
-    </line>
-    <line>
-      <![CDATA[<a target="_blank" href="C:\Users\User\Downloads\Workplace\OtrimMaven\Screenshots\screenshot.png">Screenshot</a>]]>
-    </line>
   </reporter-output>
-  <suite started-at="2021-05-28T10:34:19 IST" name="Suite" finished-at="2021-05-28T10:34:25 IST" duration-ms="6059">
+  <suite started-at="2021-09-23T02:47:01 IST" name="Default suite" finished-at="2021-09-23T02:47:02 IST" duration-ms="1576">
     <groups>
     </groups>
-    <test started-at="2021-05-28T10:34:19 IST" name="Test" finished-at="2021-05-28T10:34:25 IST" duration-ms="6059">
-      <class name="com.otrim.qa.ReportNG_Report.ReportNG_Report_InTestNG">
-        <test-method signature="reportNG_report()[pri:0, instance:com.otrim.qa.ReportNG_Report.ReportNG_Report_InTestNG@33ecda92]" started-at="2021-05-28T10:34:19 IST" name="reportNG_report" finished-at="2021-05-28T10:34:25 IST" duration-ms="6012" status="PASS">
+    <test started-at="2021-09-23T02:47:01 IST" name="Default test" finished-at="2021-09-23T02:47:02 IST" duration-ms="1576">
+      <class name="com.otrim.ExtentReports.ExtentReportsFive">
+        <test-method signature="extentTest()[pri:0, instance:com.otrim.ExtentReports.ExtentReportsFive@4c1909a3]" started-at="2021-09-23T02:47:01 IST" name="extentTest" finished-at="2021-09-23T02:47:02 IST" duration-ms="1513" status="PASS">
           <reporter-output>
-            <line>
-              <![CDATA[Navigated to chrome browser
-line]]>
-            </line>
-            <line>
-              <![CDATA[Chrome browser maximized]]>
-            </line>
-            <line>
-              <![CDATA[Navigated to URL]]>
-            </line>
-            <line>
-              <![CDATA[User Email Entered]]>
-            </line>
-            <line>
-              <![CDATA[User Password Entered]]>
-            </line>
-            <line>
-              <![CDATA[Clicked on Login Button]]>
-            </line>
-            <line>
-              <![CDATA[Assert condition verified]]>
-            </line>
-            <line>
-              <![CDATA[<a target="_blank" href="C:\Users\User\Downloads\Workplace\OtrimMaven\Screenshots\screenshot.png">Screenshot</a>]]>
-            </line>
           </reporter-output>
-        </test-method> <!-- reportNG_report -->
-      </class> <!-- com.otrim.qa.ReportNG_Report.ReportNG_Report_InTestNG -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+        </test-method> <!-- extentTest -->
+      </class> <!-- com.otrim.ExtentReports.ExtentReportsFive -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

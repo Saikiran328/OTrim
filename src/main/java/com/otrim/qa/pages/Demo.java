@@ -9,7 +9,7 @@ import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
-import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
+import com.aventstack.extentreports.reporter.ExtentSparkReporter;
 import com.aventstack.extentreports.reporter.configuration.Theme;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
@@ -21,13 +21,13 @@ public class Demo {
 	//----------------------------------------------
 	public static WebDriver driver;
 	public ExtentReports extent;
-	public ExtentHtmlReporter htmlReporter;
+	public ExtentSparkReporter htmlReporter;
 	public ExtentTest test;
 	
 	public String titleOfThepage="Free Custom URL Shortener by ONPASSIVE | Trim URL";
 	
 	public void setExtent() {
-		htmlReporter = new ExtentHtmlReporter("C:\\Users\\User\\Downloads\\Workplace\\OtrimMaven\\ExtentReports\\MyReport.html");
+		htmlReporter = new ExtentSparkReporter("C:\\Users\\User\\Downloads\\Workplace\\OtrimMaven\\ExtentReports\\MyReport.html");
 		htmlReporter.config().setDocumentTitle("Automation Report");//Title of the Report
 		htmlReporter.config().setReportName("Functional Testing");//Name of the Report
 		htmlReporter.config().setTheme(Theme.DARK);
