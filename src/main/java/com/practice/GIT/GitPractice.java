@@ -6,6 +6,7 @@ public class GitPractice {
 	
 		System.out.println("Hello how are you");
 		System.out.println("Adding new line in the class");
+		System.out.println("Adding new line in the class");
 	}
 
 }
